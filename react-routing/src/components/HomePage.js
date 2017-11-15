@@ -4,7 +4,7 @@ class HomePage extends React.Component {
 
   render() {
     return (
-      <h1>!</h1>
+      <h1>My Name is Tito and I am a Junior Web Developer</h1>
     );
   }
 }
