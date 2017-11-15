@@ -23,7 +23,6 @@ class App extends React.Component {
             <Route path="/" component={HomePage}/>
             <div>
               <Route path="/about" component={AboutPage}/>
-
             </div>
           </section>
         </main>
