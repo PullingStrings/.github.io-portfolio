@@ -2,3 +2,14 @@ main {
   max-width: 988px;
   margin: auto;
 }
+
+.navbar {
+  background-color: white;
+  box-shadow: 3px 3px 5px #888888;
+}
+
+.nav-link {
+  border-radius: 5px;
+  color: black;
+  border: 1px solid black;
+  }

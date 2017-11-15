@@ -15,21 +15,20 @@ class App extends React.Component {
     return (
       <BrowserRouter>
         <main className="container">
-          <nav>
+          <nav className="navbar navbar-toggleable-md navbar-light bg-faded">
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
           </nav>
           <section>
             <Route path="/" component={HomePage}/>
-            <div>
-              <Route path="/about" component={AboutPage}/>
-            </div>
+            <Route path="/about" component={AboutPage}/>
           </section>
         </main>
       </BrowserRouter>
     );
   }
 }
+
 
 
 ReactDOM.render(
